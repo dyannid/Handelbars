@@ -1,0 +1,69 @@
+{
+	"title": "CoSy Test Results",
+	"navigation": [
+		{
+			"type": "menu",
+			"content": {
+				"text": "Test Results",
+				"items": [
+					"0": {
+						"text": "NWOT Test Results",
+						"link": "http://polarion.vorkwerk.de/qa_test_results/",
+					},
+					"1": {
+						"text": "CoSy Test Results",
+						"link": "https://polarion.vorwerk.de/cosy_test_results"
+					},
+					"2": {
+						"text": "DEV Test Results",
+						"link": "https://polarion.vorwerk.de/dev_test_results"
+					}
+				]
+			}
+		},
+		{
+			"type": "menu",
+			"content": {
+				"text": "Looptest Overview",
+				"items": [
+					"0": {
+						"text": "NWOT Looptest Overview",
+						"link": "https://polarion.vorwerk.de/qa_test_results/looptest_overview"
+					},
+					"1": {
+						"text": "CoSy Looptest Overview",
+						"link": "https://polarion.vorwerk.de/cosy_test_results/looptest_overview"
+					},
+					"2": {
+						"text": "DEV Looptest Overview",
+						"link": "https://polarion.vorwerk.de/dev_test_results/looptest_overview"
+					}
+			]
+		},
+		{
+			"type": "item",
+			"content": {
+				"text": "Test Automation Documentation",
+				"link": "http://10.233.50.15/qa_test_results/CI_TESTING_DOCUMENTATION/"
+			}
+		},
+		{
+			"type": "item",
+			"content": {
+				"text": "Serial Console Server"
+				"link": "http://10.233.50.31/cgi-bin/serialconsole.cgi?nobutton=1&filter=all"
+			}
+		}
+	],
+	"data_directory": "/path/to/results/data/dir",
+	"base_url": "https://polarion.vorwerk.de/cosy_test_results/"
+}
+
+
+{
+	"serverNameCosy": "CoSy Test Results",
+    "proxyLinkCosy": "https://polarion.vorwerk.de/qa_test_results/",
+
+	"data_directory": "/path/to/results/data/dir",
+	"base_url": "https://polarion.vorwerk.de/cosy_test_results/"
+}

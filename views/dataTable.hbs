@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Global stylesheets -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700,900" rel="stylesheet" type="text/css">
+  <link href="https://gitcdn.link/repo/marcpre/demo_cryptoscreener/master/_other/layout_html/global_assets/css/icons/icomoon/styles.css" rel="stylesheet" type="text/css">
+  <link href="https://gitcdn.link/repo/marcpre/demo_cryptoscreener/master/_other/layout_html/assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <!-- /global stylesheets -->
+  <!-- Core JS files -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.2.1/js/bootstrap.bundle.min.js"></script>
+  <!-- /core JS files -->
+  <!-- Load plugin -->
+  <script src="https://cdn.datatables.net/1.10.2/js/jquery.dataTables.min.js"></script>
+  <!-- /load plugin -->
+  <!-- Theme JS files -->
+  <script src="https://gitcdn.link/repo/marcpre/demo_cryptoscreener/master/_other/layout_html/global_assets/js/plugins/sliders/ion_rangeslider.min.js"></script>
+  <script src="https://gitcdn.link/repo/marcpre/demo_cryptoscreener/master/_other/layout_html/global_assets/js/plugins/ui/moment/moment_locales.min.js"></script>
+</head>
+
+<body class="navbar-top">
+  <!-- Page content -->
+  <div class="page-content pt-0">
+    <!-- Default ordering -->
+    <div class="card">
+      <div class="card-body">
+        <fieldset>
+          <div class="row">
+            <div class="col-md-3">
+              <div class="form-group">
+                <label><b>% Change:</b></label>
+                <div class="mb-1">
+                  <div class="input-group">
+                    <div class="input-group-prepend">
+                      <button type="button" class="btn btn-light dropdown-toggle legitRipple" data-toggle="dropdown" aria-expanded="false">Action</button>
+                      <div class="dropdown-menu" x-placement="bottom-start" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(0px, 38px, 0px);">
+                        <a href="#" class="dropdown-item">Below</a>
+                        <a href="#" class="dropdown-item">Below or equal</a>
+                        <a href="#" class="dropdown-item">Above</a>
+                        <a href="#" class="dropdown-item">Above or equal</a>
+                        <a href="#" class="dropdown-item">Equal</a>
+                        <a href="#" class="dropdown-item">Not equal</a>
+                      </div>
+                    </div>
+                    <input id="changePercentageInput" type="text" class="form-control" placeholder="CHG %">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </fieldset>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-body">
+        <table class="table datatable-responsive dataTable" style="width:100%">
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>Stock</th>
+              <th>SYMBOL</th>
+              <th>LAST</th>
+              <th>CHG %</th>
+              <th>CHG</th>
+              <th>HIGH</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr role="row" class="odd">
+              <td tabindex="0" class="sorting_1">1</td>
+              <td>USD/BTC</td>
+              <td>USD</td>
+              <td>0.00061720</td>
+              <td>-181.40%</td>
+              <td>-0.00001140</td>
+              <td>0.00065050</td>
+            </tr>
+            <tr role="row" class="even">
+              <td tabindex="0" class="sorting_1">2</td>
+              <td>EUR/Rubel</td>
+              <td>EUR</td>
+              <td>0.00767000</td>
+              <td>-166.70%</td>
+              <td>-0.00013000</td>
+              <td>0.00803000</td>
+            </tr>
+            <tr role="row" class="odd">
+              <td tabindex="0" class="sorting_1">3</td>
+              <td>Yen/USD</td>
+              <td>Yen</td>
+              <td>0.00000000</td>
+              <td>-0.1112%</td>
+              <td>0.00000000</td>
+              <td>0.00000000</td>
+            </tr>
+            <tr role="row" class="even">
+              <td tabindex="0" class="sorting_1">4</td>
+              <td>Yen/EUR</td>
+              <td>Yen</td>
+              <td>0.00000000</td>
+              <td>0.01%</td>
+              <td>0.00000000</td>
+              <td>0.00000000</td>
+            </tr>
+            <tr role="row" class="odd">
+              <td class="sorting_1" tabindex="0">5</td>
+              <td>Rubel/Yen</td>
+              <td>Rubel</td>
+              <td>0.00658300</td>
+              <td>28.90%</td>
+              <td>0.00001900</td>
+              <td>0.00707600</td>
+            </tr>
+            <tr role="row" class="even">
+              <td class="sorting_1" tabindex="0">6</td>
+              <td>EUR/USD</td>
+              <td>EUR</td>
+              <td>0.00000040</td>
+              <td>256.41%</td>
+              <td>0.00000001</td>
+              <td>0.00000042</td>
+            </tr>
+          </tbody>
+        </table>
+        <!-- /default ordering -->
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
